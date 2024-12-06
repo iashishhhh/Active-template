@@ -1,0 +1,82 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.carousel {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.txt {
+    font-size: 21px
+}
+
+.box {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+
+.box:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.icon1 {
+    color: green;
+    background-color: rgba(212, 212, 212, 0.801);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.icon1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(24, 104, 4, 0.801);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.heading {
+    font-size: 22px;
+}
+
+.txt {
+    font-size: 18px;
+}
+
+.txt2 {
+    font-size: px;
+}
+.serviceheading{
+    font-size: 17px;
+}
+.servicep{
+    font-size: 16px;
+}
+.superscript{
+    font-size: 42px;
+    color: green;
+}
+.na{
+    text-decoration:line-through;
+    color: black;
+}
+li{
+    padding: 10px;
+}
+.icontop{
+    color: green;
+}
