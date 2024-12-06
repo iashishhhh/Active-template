@@ -44,3 +44,22 @@ observer.observe(statsSection);
 
 
 // 
+// Initialize the carousel with custom options
+const testimonialCarousel = new bootstrap.Carousel('#testimonialCarousel', {
+    interval: 2500, // Change slide every 4 seconds
+    ride: 'carousel', // Automatically start cycling
+    pause: 'hover',   // Pause on hover
+    wrap: true        // Loop back to the first slide
+});
+
+// Example: Programmatically navigate to a specific slide
+document.querySelectorAll('.carousel-indicators button').forEach((button, index) => {
+    button.addEventListener('click', () => {
+        testimonialCarousel.to(index); // Jump to the specific slide
+    });
+});
+
+// Example: Log the active slide index when it changes
+document.querySelector('#testimonialCarousel').addEventListener('slid.bs.carousel', (event) => {
+    console.log(`Active slide index: ${event.to}`);
+});     

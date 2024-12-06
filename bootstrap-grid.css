@@ -60,23 +60,34 @@ body {
 .txt2 {
     font-size: px;
 }
-.serviceheading{
+
+.serviceheading {
     font-size: 17px;
 }
-.servicep{
+
+.servicep {
     font-size: 16px;
 }
-.superscript{
+
+.superscript {
     font-size: 42px;
     color: green;
 }
-.na{
-    text-decoration:line-through;
+
+.na {
+    text-decoration: line-through;
     color: black;
 }
-.li{
+
+.li {
     padding: 10px;
 }
-.icontop{
+
+.icontop {
     color: green;
 }
+
+.i2 {
+    color: green;
+}
+
